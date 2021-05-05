@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://The Adventures of Goyokiller.png" type="Texture" id=1]
+[ext_resource path="res://Menu.gd" type="Script" id=2]
+
+[node name="Menu" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="The Adventures of Goyokiller" type="Sprite" parent="."]
+position = Vector2( 514.02, 302.331 )
+scale = Vector2( 0.411883, 0.497954 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
